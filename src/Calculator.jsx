@@ -130,84 +130,84 @@ const Calculator = () => {
         </div>
         <div className="flex-1 grid grid-cols-4 gap-3 animate-colorChange dark:animate-colorChangeDark place-items-center text-3xl">
           <button
-            className="w-14 h-14 rounded-xl bg-blue-200  text-blue-400 dark:text-gray-300 dark:bg-gray-600 shadow-light-shadow dark:shadow-dark-shadow flex items-center justify-center transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-700 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            className="w-14 h-14 rounded-xl bg-blue-200  text-blue-400 dark:text-gray-300 dark:bg-gray-600 shadow-light-shadow dark:shadow-dark-shadow flex items-center justify-center transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-700 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={handleClear}>
             AC
           </button>
           <button
-            className="w-14 h-14  rounded-xl bg-blue-200 text-blue-400 dark:text-gray-300 dark:bg-gray-600 flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-700 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            className="w-14 h-14  rounded-xl bg-blue-200 text-blue-400 dark:text-gray-300 dark:bg-gray-600 flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-700 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={handleBackSpace}>
             <BackspaceOutlinedIcon />
           </button>
           <button
-            className="w-14 h-14 rounded-xl bg-blue-300 dark:bg-blue-600 text-blue-500 dark:text-blue-100 flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-blue-700 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            className="w-14 h-14 rounded-xl bg-blue-300 dark:bg-blue-600 text-blue-500 dark:text-blue-100 flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-blue-700 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={() => handleSigns("/")}>
             /
           </button>
           <button
-            className="w-14 h-14 rounded-xl bg-blue-300 dark:bg-blue-600 text-blue-500 dark:text-blue-100 flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-blue-700 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            className="w-14 h-14 rounded-xl bg-blue-300 dark:bg-blue-600 text-blue-500 dark:text-blue-100 flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-blue-700 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={() => handleSigns("*")}>
             <CloseIcon />
           </button>
           <button
-            className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-800 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-800 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={(e) => handleNumberClick(e.target.innerHTML)}>
             7
           </button>
           <button
-            className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-800 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-800 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={(e) => handleNumberClick(e.target.innerHTML)}>
             8
           </button>
           <button
-            className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-800 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-800 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={(e) => handleNumberClick(e.target.innerHTML)}>
             9
           </button>
-          <button className="w-14 h-14 rounded-xl bg-blue-300 dark:bg-blue-600 text-blue-500 dark:text-blue-100 flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-blue-700 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+          <button className="w-14 h-14 rounded-xl bg-blue-300 dark:bg-blue-600 text-blue-500 dark:text-blue-100 flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-blue-700 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={() => handleSigns("-")}>
             -
           </button>
-          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-800 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-800 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={(e) => handleNumberClick(e.target.innerHTML)}>
             4
           </button>
-          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-800 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-800 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={(e) => handleNumberClick(e.target.innerHTML)}>
             5
           </button>
-          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-800 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-800 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:over:scale-105"
             onClick={(e) => handleNumberClick(e.target.innerHTML)}>
             6
           </button>
           <div className="w-full h-full row-span-3 flex flex-col gap-3 py-1">
-            <button className="flex-1 h-14 rounded-xl bg-blue-300 dark:bg-blue-600 text-blue-500 dark:text-blue-100 flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-blue-700 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            <button className="flex-1 h-14 rounded-xl bg-blue-300 dark:bg-blue-600 text-blue-500 dark:text-blue-100 flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-blue-700 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
               onClick={() => handleSigns("+")}>
               +
             </button>
-            <button className="flex-1 h-14 rounded-xl bg-blue-500 text-white flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-blue-700 hover:text-blue-800 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            <button className="flex-1 h-14 rounded-xl bg-blue-500 text-white flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-blue-700 lg:hover:text-blue-800 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
               onClick={handleCalculation}>
               =
             </button>
           </div>
-          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-800  hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-800  lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={(e) => handleNumberClick(e.target.innerHTML)}>
             1
           </button>
-          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-800  hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-800  lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={(e) => handleNumberClick(e.target.innerHTML)}>
             2
           </button>
-          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-800  hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+          <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-800  lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
             onClick={(e) => handleNumberClick(e.target.innerHTML)}>
             3
           </button>
           <div className="w-full pe-[2px] h-14 col-span-3 flex gap-3 justify-between">
-            <button className="flex-1 max-w-[124px] h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-800 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            <button className="flex-1 max-w-[124px] h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-800 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
               onClick={(e) => handleNumberClick(e.target.innerHTML)}>
               0
             </button>
-            <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform hover:bg-blue-400 dark:hover:bg-gray-900 hover:text-blue-700 dark:hover:text-blue-200 hover:shadow-lg hover:scale-105"
+            <button className="w-14 h-14 rounded-xl bg-blue-200 dark:bg-darkBg flex items-center justify-center shadow-light-shadow dark:shadow-dark-shadow transition duration-200 ease-in-out transform lg:hover:bg-blue-400 lg:dark:hover:bg-gray-900 lg:hover:text-blue-700 lg:dark:hover:text-blue-200 lg:hover:shadow-lg lg:hover:scale-105"
               onClick={(e) => handleNumberClick(e.target.innerHTML)}
             >
               .
